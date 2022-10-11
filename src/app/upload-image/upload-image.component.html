@@ -1,0 +1,17 @@
+<form class="d-flex justify-content-center pt-4">
+    <div class="progress-bar">
+        <input type="file" id="fileInput" name="fileInput" accept="image/*" multiple (change)="selectFiles($event)" />
+    </div>
+</form>
+
+
+<mat-card class="list-card" *ngIf="previews.length>0">
+    <mat-card-header class="d-flex justify-content-center pt-4">
+        <mat-card-title>List of Images</mat-card-title>
+    </mat-card-header>
+    <mat-card-content class="d-flex justify-content-center pt-4">
+        <div>
+            <img *ngFor='let preview of previews' [src]="preview" class="preview">
+        </div>
+    </mat-card-content>
+</mat-card>

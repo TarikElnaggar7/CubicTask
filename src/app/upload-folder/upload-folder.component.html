@@ -1,0 +1,10 @@
+<form class="d-flex justify-content-center space-around pt-4 ">
+    <div class="row">
+        <input type="file" (change)="onChange($event)" name="fileList" webkitdirectory multiple />
+    </div>
+
+    <div class="row">
+        <ul #filepicker></ul>
+    </div>
+
+</form>

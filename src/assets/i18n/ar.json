@@ -1,0 +1,12 @@
+{
+  "title":"التسجيل",
+  "selectLang":"إختر اللغة",
+  "arabic":"العربية",
+  "english":"الإنجليزية",
+  "username":"إسم المستخدم",
+  "email":"البريد الإلكتروني",
+  "phoneNumber": "رقم الهاتف",
+  "addPhotos":"أضف صور",
+  "addFolder": "اضف ملف",
+  "selectAttachment": "اختر نوع المرفق"
+}

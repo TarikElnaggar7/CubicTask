@@ -1,0 +1,12 @@
+{
+  "title":"Register",
+  "selectLang":"Select LAnguage",
+  "arabic":"Arabic",
+  "english":"English",
+  "username":"User Name",
+  "email":"E-Mail",
+  "phoneNumber": "Phone Number",
+  "addPhotos":"Add photos",
+  "addFolder": "Add Folder",
+  "selectAttachment": "Select Attachment"
+}
